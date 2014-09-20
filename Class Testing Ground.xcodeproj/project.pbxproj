@@ -21,6 +21,7 @@
 		994D6BAF19CDE24900E9A534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994D6B9119CDE24800E9A534 /* UIKit.framework */; };
 		994D6BB719CDE24900E9A534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 994D6BB519CDE24900E9A534 /* InfoPlist.strings */; };
 		994D6BB919CDE24900E9A534 /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 994D6BB819CDE24900E9A534 /* Class_Testing_GroundTests.m */; };
+		994D6BC419CDE51200E9A534 /* MTLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 994D6BC319CDE51200E9A534 /* MTLDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		994D6BB419CDE24900E9A534 /* Class Testing GroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Class Testing GroundTests-Info.plist"; sourceTree = "<group>"; };
 		994D6BB619CDE24900E9A534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		994D6BB819CDE24900E9A534 /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		994D6BC219CDE51200E9A534 /* MTLDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLDog.h; sourceTree = "<group>"; };
+		994D6BC319CDE51200E9A534 /* MTLDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				994D6B9F19CDE24800E9A534 /* Main.storyboard */,
 				994D6BA219CDE24800E9A534 /* MTLViewController.h */,
 				994D6BA319CDE24800E9A534 /* MTLViewController.m */,
+				994D6BC219CDE51200E9A534 /* MTLDog.h */,
+				994D6BC319CDE51200E9A534 /* MTLDog.m */,
 				994D6BA519CDE24800E9A534 /* Images.xcassets */,
 				994D6B9419CDE24800E9A534 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				994D6B9E19CDE24800E9A534 /* MTLAppDelegate.m in Sources */,
 				994D6BA419CDE24800E9A534 /* MTLViewController.m in Sources */,
+				994D6BC419CDE51200E9A534 /* MTLDog.m in Sources */,
 				994D6B9A19CDE24800E9A534 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
